@@ -21,14 +21,16 @@ print_banner() {
 
   printf "\n\n"
 
-printf "${GREEN}";  
-echo "#####                       #     #  #####   #####  "
-echo "#     # ###### #    # #####  ##   ## #     #         "
-echo "#       #      ##   # #    # # # # # #                 "
-echo " #####  #####  # #  # #    # #  #  #  #####  #  #### "
-echo "      # #      #  # # #    # #     #       # #     # "
-echo "#     # #      #   ## #    # #     # #     # #     # "
-echo " #####  ###### #    # #####  #     #  #####   #####  "  
+	printf "${GREEN}";  
+	echo " ######                       #     #  #####  ###### "
+	echo "#        ###### #    # #####  ##   ## #     # #       "
+	echo "#        #      ##   # #    # # # # # #       #       "
+	echo " #####   #####  # #  # #    # #  #  #  #####  #  #### "
+	echo "      #  #      #  # # #    # #     #       # #     # "
+	echo "      #  #      #   ## #    # #     # #     # #     # "
+	echo "######   ###### #    # #####  #     #  #####   #####  "  
 
-  printf "\n"
+	printf "\n"
+	printf "${RED}";
+	printf "Desenvolvido por Spartech LTDA © - Todos os direitos reservados"
 }
