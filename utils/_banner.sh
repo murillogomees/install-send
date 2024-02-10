@@ -21,7 +21,7 @@ print_banner() {
 
   printf "\n\n"
 
-printf "${GREEN}";  
+ 
 printf "\n";
 printf "#####                        #     #  #####   #####  ";
 printf "#   #   ###### #    # #####  ##   ## #    #  #    #  ";
@@ -31,7 +31,6 @@ printf "    #   #      #  # # #    # #     #       # #     # ";
 printf "#   #   #      #   ## #    # #     # #     # #     # ";
 printf "#####   ###### #    # #####  #     #  #####   #####  ";
 printf "\n";
-printf "${NC}";
   
   
 
