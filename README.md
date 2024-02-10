@@ -6,6 +6,6 @@ sudo apt install -y git && git clone https://github.com/murillogomees/install-se
 
 ACESSANDO DIRETORIO DO INSTALADOR & INICIANDO INSTALAÇÕES 
 ```bash
-cd install-send && ./install_primairia
+cd install-send && ./install_primaria
 ```
 
