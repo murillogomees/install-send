@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\lib",
+    "\\utils"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\utils\\_banner.sh",
   "PreviewInSolutionExplorer": false
 }
