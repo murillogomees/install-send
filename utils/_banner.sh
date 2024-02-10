@@ -33,5 +33,6 @@ print_banner() {
 	printf "\n"
 	printf "${RED}";
 	printf "Desenvolvido por Spartech LTDA © - Todos os direitos reservados"
-	printf "\n"
+
+	printf "\n\n"
 }

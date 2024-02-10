@@ -201,14 +201,15 @@ software_dominio() {
 inquiry_options() {
   
   print_banner
-  printf "${WHITE} 💻 Bem vindo(a) ao Gerenciador SendMSG. Selecione abaixo a proxima ação!${GRAY_LIGHT}"
   printf "\n\n"
-  printf "   [0] Instalar SendMSG\n"
-  printf "   [1] Atualizar SendMSG\n"
-  printf "   [2] Deletar SendMSG\n"
-  printf "   [3] Bloquear SendMSG\n"
-  printf "   [4] Desbloquear SendMSG\n"
-  printf "   [5] Alter. dominio SendMSG\n"
+  printf "${WHITE} 💻 Bem vindo(a) ao Gerenciador do SendMSG. Selecione abaixo a ação desejada!${GRAY_LIGHT}"
+  printf "\n\n"
+  printf "   [0] Instalar Sistema\n"
+  printf "   [1] Atualizar Sistema\n"
+  printf "   [2] Deletar Sistema\n"
+  printf "   [3] Bloquear Sistema\n"
+  printf "   [4] Desbloquear Sistema\n"
+  printf "   [5] Alter. dominio Sistema\n"
   printf "\n"
   read -p "> " option
 
