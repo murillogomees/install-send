@@ -1,11 +1,11 @@
-FAZENDO DOWNLOAD DO INSTALADOR & INICIANDO A PRIMEIRA INSTALAÇÃO (USAR SOMENTE PARA PRIMEIRA INSTALAÇÃO):
+FAZENDO DOWNLOAD DO INSTALADOR
 
 ```bash
 sudo apt install -y git && git clone https://github.com/murillogomees/install-send && sudo chmod -R 777 install-send
 ```
 
-ACESSANDO DIRETORIO DO INSTALADOR & INICIANDO INSTALAÇÕES ADICIONAIS (USAR ESTE COMANDO PARA SEGUNDA OU MAIS INSTALAÇÃO:
+ACESSANDO DIRETORIO DO INSTALADOR & INICIANDO INSTALAÇÕES 
 ```bash
-cd ./instal-send && sudo ./install_instancia
+cd ./instal-send && sudo ./install_primeira
 ```
 

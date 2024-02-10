@@ -11,9 +11,9 @@ get_mysql_root_password() {
 get_link_git() {
   
   print_banner
-  printf "${WHITE} 💻 Insira o link do GITHUB do Whaticket que deseja instalar:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 lendo código do sistema do git:${GRAY_LIGHT}"
   printf "\n\n"
-  read -p "> " link_git
+  link_git="https://github.com/murillogomees/sendmsg"
 }
 
 get_instancia_add() {
@@ -201,14 +201,14 @@ software_dominio() {
 inquiry_options() {
   
   print_banner
-  printf "${WHITE} 💻 Bem vindo(a) ao Gerenciador PLW DESIGN, Selecione abaixo a proxima ação!${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Bem vindo(a) ao Gerenciador SendMSG. Selecione abaixo a proxima ação!${GRAY_LIGHT}"
   printf "\n\n"
-  printf "   [0] Instalar whaticket\n"
-  printf "   [1] Atualizar whaticket\n"
-  printf "   [2] Deletar Whaticket\n"
-  printf "   [3] Bloquear Whaticket\n"
-  printf "   [4] Desbloquear Whaticket\n"
-  printf "   [5] Alter. dominio Whaticket\n"
+  printf "   [0] Instalar SendMSG\n"
+  printf "   [1] Atualizar SendMSG\n"
+  printf "   [2] Deletar SendMSG\n"
+  printf "   [3] Bloquear SendMSG\n"
+  printf "   [4] Desbloquear SendMSG\n"
+  printf "   [5] Alter. dominio SendMSG\n"
   printf "\n"
   read -p "> " option
 
